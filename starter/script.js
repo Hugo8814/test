@@ -6,3 +6,6 @@
 import * as ShoppingCart from './shoppingCart.js';
 
 ShoppingCart.addtoCart('bread', 4);
+console.log(ShoppingCart.totalPrice);
+
+import add from './shoppingCart.js';
