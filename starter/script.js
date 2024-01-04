@@ -13,7 +13,7 @@
 // add('bread', 3);
 // add('pizza', 1);
 // console.log(cart);
-// console.log(add);
+console.log(add);
 // console.log('start of something');
 
 // console.log(data);
