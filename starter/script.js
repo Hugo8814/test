@@ -8,4 +8,6 @@ import * as ShoppingCart from './shoppingCart.js';
 ShoppingCart.addtoCart('bread', 4);
 console.log(ShoppingCart.totalPrice);
 
-import add from './shoppingCart.js';
+import add, { addtoCart, totalPrice as price, tq } from './shoppingCart.js';
+add('pizza', 2);
+console.log();
