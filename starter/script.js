@@ -11,7 +11,7 @@
 // import add, { cart } from './shoppingCart.js';
 // add('pizza', 2);
 // add('bread', 3);
-// add('pizza', 1);
+add('pizza', 1);
 console.log(cart);
 console.log(add);
 // console.log('start of something');
