@@ -9,7 +9,7 @@
 
 // import add, { addtoCart, totalPrice as price, tq } from './shoppingCart.js';
 // import add, { cart } from './shoppingCart.js';
-// add('pizza', 2);
+add('pizza', 2);
 add('bread', 3);
 add('pizza', 1);
 console.log(cart);
