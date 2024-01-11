@@ -9,11 +9,11 @@
 
 // import add, { addtoCart, totalPrice as price, tq } from './shoppingCart.js';
 // import add, { cart } from './shoppingCart.js';
-add('pizza', 2);
-add('bread', 3);
-add('pizza', 1);
-console.log(cart);
-console.log(add);
+// add('pizza', 2);
+// add('bread', 3);
+// add('pizza', 1);
+// console.log(cart);
+// console.log(add);
 // console.log('start of something');
 
 // console.log(data);
@@ -22,9 +22,16 @@ console.log(add);
 const getLastPost = async function () {
   const res = await fetch('https://jsonplaceholder.typicode.com/posts');
   const data = await res.json();
-  console.log(data);
 
-  return { title: data.at(-1) };
+  return { title: data.at(-1), text: data.at(-1).body };
 };
 
-getLastPost();
+const lastpost = getLastPost();
+
+console.log(lastpost);
+
+// not very clean
+//lastpost.then(last => console.log(last));
+
+const lastPost2 = await getLastPost();
+console.log(lastPost2);
