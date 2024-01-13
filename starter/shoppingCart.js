@@ -1,4 +1,8 @@
 // exporting
+//bolcking code
+// console.log('blocking code2');
+// await fetch('https://jsonplaceholder.typicode.com/posts');
+// console.log('blocking code2');
 
 console.log('exporting');
 

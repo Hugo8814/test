@@ -17,21 +17,49 @@
 // console.log('start of something');
 
 // console.log(data);
-// console.log('end something');
+// // console.log('end something');
 
-const getLastPost = async function () {
-  const res = await fetch('https://jsonplaceholder.typicode.com/posts');
-  const data = await res.json();
+// const getLastPost = async function () {
+//   const res = await fetch('https://jsonplaceholder.typicode.com/posts');
+//   const data = await res.json();
 
-  return { title: data.at(-1), text: data.at(-1).body };
-};
+//   return { title: data.at(-1), text: data.at(-1).body };
+// };
 
-const lastpost = getLastPost();
+// const lastpost = getLastPost();
 
-console.log(lastpost);
+// console.log(lastpost);
 
-// not very clean
-//lastpost.then(last => console.log(last));
+// // not very clean
+// //lastpost.then(last => console.log(last));
 
-const lastPost2 = await getLastPost();
-console.log(lastPost2);
+// const lastPost2 = await getLastPost();
+// console.log(lastPost2);
+
+// const shoppingCart2 = (function () {
+//   const cart = [];
+//   const shippingCost = 10;
+//   const totalPrice = 237;
+//   const totalquntity = 23;
+
+//   const addtoCart = function (product, quantity) {
+//     cart.push({ product, quantity });
+//     console.log(
+//       `${quantity} ${product} added to cart (shipping cost is ${shippingCost})`
+//     );
+//   };
+//   const orderStock = function (product, quantity) {
+//     cart.push({ product, quantity });
+//     console.log(`${quantity} ${product} oreder from suppiler `);
+//   };
+//   return {
+//     addtoCart,
+//     cart,
+//     totalPrice,
+//     totalquntity,
+//   };
+// })();
+
+// shoppingCart2.addtoCart('apple', 3);
+// shoppingCart2.addtoCart('pizza', 2);
+// console.log(shoppingCart2);
