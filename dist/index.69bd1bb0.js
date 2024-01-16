@@ -608,7 +608,6 @@ const lastpost = getLastPost();
 console.log(lastpost);
 //lastpost.then(last => console.log(last));
 // const lastPost2 = await getLastPost();
-// console.log(lastPost2);
 const shoppingCart2 = function() {
     const cart = [];
     const shippingCost = 10;
