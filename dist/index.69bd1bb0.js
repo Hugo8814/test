@@ -596,7 +596,6 @@ console.log((0, _shoppingCartJs.cart));
 console.log((0, _shoppingCartJsDefault.default));
 console.log("start of something");
 //console.log(data);
-// console.log('end something');
 const getLastPost = async function() {
     const res = await fetch("https://jsonplaceholder.typicode.com/posts");
     const data = await res.json();
