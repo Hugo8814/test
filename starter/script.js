@@ -29,7 +29,6 @@ const lastpost = getLastPost();
 
 console.log(lastpost);
 
-// not very clean
 //lastpost.then(last => console.log(last));
 
 // const lastPost2 = await getLastPost();

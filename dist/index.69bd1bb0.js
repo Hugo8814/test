@@ -606,7 +606,6 @@ const getLastPost = async function() {
 };
 const lastpost = getLastPost();
 console.log(lastpost);
-// not very clean
 //lastpost.then(last => console.log(last));
 // const lastPost2 = await getLastPost();
 // console.log(lastPost2);
