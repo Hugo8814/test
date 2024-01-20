@@ -659,6 +659,13 @@ state.user.loggedIn = false;
 console.log(stateClone);
 console.log(stateDeepClone);
 if (module.hot) module.hot.accept();
+class Person {
+    #greeting = "hey";
+    constructor(name){
+        this.name = name;
+        console.log(`${this.#greeting}, ${this.name}`);
+    }
+}
 
 },{"./shoppingCart.js":"eWLX8","lodash-es":"bXNwz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eWLX8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
