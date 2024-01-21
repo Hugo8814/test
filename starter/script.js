@@ -90,3 +90,14 @@ class Person {
     console.log(`${this.#greeting}, ${this.name}`);
   }
 }
+
+const jonas = new Person('jonas');
+
+console.log('hugo' ?? null);
+console.log(cart.filter(el => el.quantity >= 2));
+
+Promise.resolve('TEST').then(x => console.log(x));
+
+import 'core-js/stable';
+// import 'core-js/stable/array/filter.js';
+import 'regenerator-runtime/runtime';
